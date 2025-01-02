@@ -15,19 +15,19 @@
                 <a href="#"><img class="rounded-full" src="https://picsum.photos/id/237/200/" alt="dog"></a>
             </div>
             <ul class="flex space-x-5">
-                <li><a class="text-blue-500 hover:text-green-700 font-medium" href="#">Services</a></li>
-                <li><a class="text-blue-500 hover:text-green-700 font-medium" href="#">Pricing</a></li>
-                <li><a class="text-blue-500 hover:text-green-700 font-medium" href="#">About</a></li>
-                <li><a class="text-blue-500 hover:text-green-700 font-medium" href="#">Contact Us</a></li>
+                <li><a class="text-black-500 hover:text-white font-medium" href="#">Services</a></li>
+                <li><a class="text-black-500 hover:text-white font-medium" href="#">Pricing</a></li>
+                <li><a class="text-black-500 hover:text-white font-medium" href="#">About</a></li>
+                <li><a class="text-black-500 hover:text-white font-medium" href="#">Contact Us</a></li>
             </ul>
-            <button class="bg-green-600 px-6 py-2 border rounded-full text-white hover:bg-blue-300 hover:text-black font-medium">Sign Up</button>
+            <button class="bg-green-600 px-6 py-2 border rounded-full text-white hover:bg-white-300 hover:text-black font-medium">Sign Up</button>
         </nav>
     </div>
     <!-- HERO -->
-     <div class="container mx-auto mt-12 flex ">
-        <div class="w-1/2 text-center">
+     <div class="container mx-auto mt-12 flex mb-10  md:flex-row">
+        <div class="md:w-1/2 text-center">
             <p class="mt-6">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis, repudiandae? Accusamus consectetur cumque quis reprehenderit, culpa ut saepe necessitatibus voluptate quam laboriosam nihil odit dolore omnis, dolorum cupiditate velit debitis.</p>
-            <button class="bg-blue-500 text-white px-6 py-2 mt-4 rounded-full transform hover:scale-105 transition-transform duration-300 font-semibold ">Get Started</button>
+            <button class="bg-indigo-500 text-white px-6 py-2 mt-4 rounded-full transform hover:scale-105 transition-transform duration-300 font-semibold ">Get Started</button>
         </div>
         <div class="w-1/2 "> 
             <img class="mx-auto" src="src/assests/design.svg" alt="design">
@@ -35,12 +35,250 @@
      </div>
 
      <!-- Main -->
-      <div>
-        <div>
-            <h1>Web Development</h1>
-            <img src="" alt="">
-            <p></p>
+      <div class="container mx-auto flex flex-col mt-12 md:flex-row sm:gap-12 ">
+        <div class="md:w-1/3  text-center flex flex-col items-center">
+            <h1 class="text-2xl">Mobile App Development</h1>
+            <img class="h-40 w-40" src="src/assests/undraw_experience-design_d4md.svg" alt="Mobile App Development">
+            <p>We specialize in creating intuitive and user-friendly mobile applications for iOS and Android platforms.</p>
         </div>
+        <div class="md:w-1/3  text-center flex flex-col items-center">
+            <h1 class="text-2xl">UI/UX Design</h1>
+            <img class="h-40 w-40"  src="src/assests/undraw_mobile-site_qjby.svg" alt="App Design">
+            <p>Our UI/UX design team ensures that your app offers the best user experience with modern, sleek designs.</p>
+        </div>
+        <div class="md:w-1/3  text-center flex flex-col items-center">
+            <h1 class="text-2xl">Cross-Platform Apps</h1>
+            <img class="h-40 w-40"  src="src/assests/design.svg" alt="Cross-Platform App Development">
+            <p>We build robust cross-platform applications that run seamlessly on both iOS and Android, saving you time and cost.</p>
+        </div>
+        
       </div>
+
+      <!-- PRICING -->
+
+      <div class="container mx-auto mt-6 max-w-7xl">
+        <div class="text-center">
+            <h1 class="font-bold text-green-600 text-3xl">Pricing</h1>
+            <p class="text-2xl">Offers multiple package options for monthly and yearly subscriptions.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+            <div class="bg-gray-400 w-full sm:w-40 rounded-2xl hover:shadow-2xl p-4">
+                <h1 class="font-bold text-5xl text-center">$99</h1>
+                <h2 class="text-green-600 mb-3 text-center">Basic</h2>
+                <p class="text-center mb-4">Perfect for startups and small businesses.</p>
+                <ul>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Core Business System
+                        </div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Core Business System
+                        </div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="#1C274C" stroke-width="1.5"/>
+                                <path d="M15 12H9" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Customized Features
+                        </div>
+                    </li>
+                </ul>
+                <button class="w-full bg-green-600 text-white py-2 rounded-lg mt-4">Get Started</button>
+            </div>
+            <div class="bg-gray-400 w-full sm:w-40 rounded-2xl hover:shadow-2xl p-4">
+                <h1 class="font-bold text-5xl text-center">$199</h1>
+                <h2 class="text-green-600 mb-3 text-center">Standard</h2>
+                <p class="text-center mb-4">Ideal for growing businesses with advanced needs.</p>
+                <ul>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Extended Reporting
+                        </div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Priority Support
+                        </div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="#1C274C" stroke-width="1.5"/>
+                                <path d="M15 12H9" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Custom Integrations
+                        </div>
+                    </li>
+                </ul>
+                <button class="w-full bg-green-600 text-white py-2 rounded-lg mt-4">Get Started</button>
+            </div>
+            <div class="bg-gray-400 w-full sm:w-40 rounded-2xl hover:shadow-2xl p-4">
+                <h1 class="font-bold text-5xl text-center">$299</h1>
+                <h2 class="text-green-600 mb-3 text-center">Premium</h2>
+                <p class="text-center mb-4">Complete package for enterprises with custom solutions.</p>
+                <ul>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Advanced Reporting
+                        </div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6 text-indigo-500" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill="currentColor" fill-rule="evenodd" clip-rule="evenodd" d="M6 3C4.34315 3 3 4.34315 3 6V18C3 19.6569 4.34315 21 6 21H18C19.6569 21 21 19.6569 21 18V6C21 4.34315 19.6569 3 18 3H6ZM17.8 8.6C18.1314 8.15817 18.0418 7.53137 17.6 7.2C17.1582 6.86863 16.5314 6.95817 16.2 7.4L10.8918 14.4776L8.70711 12.2929C8.31658 11.9024 7.68342 11.9024 7.29289 12.2929C6.90237 12.6834 6.90237 13.3166 7.29289 13.7071L10.2929 16.7071C10.4979 16.9121 10.7817 17.018 11.0709 16.9975C11.3601 16.9769 11.6261 16.8319 11.8 16.6L17.8 8.6Z" fill="#000000"/>
+                            </svg>
+                        </div>
+                        <div>
+                            24/7 Support
+                        </div>
+                    </li>
+                    <li class="flex items-center mt-4">
+                        <div>
+                            <svg class="h-6 w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="12" cy="12" r="10" stroke="#1C274C" stroke-width="1.5"/>
+                                <path d="M15 12H9" stroke="#1C274C" stroke-width="1.5" stroke-linecap="round"/>
+                            </svg>
+                        </div>
+                        <div>
+                            Enterprise Integrations
+                        </div>
+                    </li>
+                </ul>
+                <button class="w-full bg-green-600 text-white py-2 rounded-lg mt-4">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stories --> 
+    <div class="container mx-auto mt-12">
+        <div class="text-center">
+            <h1>Recent Updates</h1>
+            <h1 class="text-5xl">Featured Stories</h1>
+        </div>
+        <div class="grid grid-cols-3 gap-4">
+            
+            <div class="hover:shadow-2xl bg-gray-200 rounded-2xl text-center">
+                <img class="4 w-full h-60" src="https://picsum.photos/200" alt="image">
+                <h1 class="text-2xl text-indigo-500 mt-4">Google Ranking</h1>
+                <p class="text-gray-700 mt-2 px-4">Discover how to improve your website's visibility on Google and rank higher in search results.</p>
+                <button class="bg-indigo-500 text-white px-4 py-2 mt-4 rounded-full hover:bg-indigo-600">Read More</button>
+            </div>
+    
+            <div class="hover:shadow-2xl bg-gray-200 rounded-2xl text-center">
+                <img class="4 w-full h-60" src="https://picsum.photos/200" alt="image">
+                <h1 class="text-2xl text-indigo-500 mt-4">Communications</h1>
+                <p class="text-gray-700 mt-2 px-4">Learn effective communication strategies to enhance collaboration and understanding.</p>
+                <button class="bg-indigo-500 text-white px-4 py-2 mt-4 rounded-full hover:bg-indigo-600">Read More</button>
+            </div>
+    
+            <div class="hover:shadow-2xl bg-gray-200 rounded-2xl text-center">
+                <img class="4 w-full h-60" src="https://picsum.photos/200" alt="image">
+                <h1 class="text-2xl text-indigo-500 mt-4">Remote Working</h1>
+                <p class="text-gray-700 mt-2 px-4">Explore tips and tools to stay productive and connected while working remotely.</p>
+                <button class="bg-indigo-500 text-white px-4 py-2 mt-4 rounded-full hover:bg-indigo-600">Read More</button>
+            </div>
+    
+        </div>
+    </div>
+    
+    </div>
+
+    <!-- Footer -->
+<!-- Footer -->
+<footer class="bg-gray-200 mt-12 h-96">
+    <div class="container mx-auto flex flex-wrap p-12">
+        <!-- Branding Section -->
+        <div class="w-full sm:w-1/4 mb-8">
+            <p class="font-medium text-2xl">Gowtham</p>
+            <p class="text-gray-700 mt-4">Building innovative web solutions tailored to your needs.</p>
+        </div>
+        
+        <!-- First Links Section -->
+        <div class="w-full sm:w-1/4 mb-8">
+            <h2 class="font-semibold text-lg mb-4">Quick Links</h2>
+            <ul class="text-gray-600 space-y-2">
+                <li><a href="#" class="hover:text-indigo-500">Home</a></li>
+                <li><a href="#" class="hover:text-indigo-500">About Us</a></li>
+                <li><a href="#" class="hover:text-indigo-500">Services</a></li>
+                <li><a href="#" class="hover:text-indigo-500">Contact</a></li>
+            </ul>
+        </div>
+        
+        <!-- Second Links Section -->
+        <div class="w-full sm:w-1/4 mb-8">
+            <h2 class="font-semibold text-lg mb-4">Resources</h2>
+            <ul class="text-gray-600 space-y-2">
+                <li><a href="#" class="hover:text-indigo-500">Blog</a></li>
+                <li><a href="#" class="hover:text-indigo-500">FAQs</a></li>
+                <li><a href="#" class="hover:text-indigo-500">Support</a></li>
+                <li><a href="#" class="hover:text-indigo-500">Privacy Policy</a></li>
+            </ul>
+        </div>
+        
+        <!-- Social Media Section -->
+        <div class="w-full sm:w-1/4 mb-8">
+            <h2 class="font-semibold text-lg mb-4">Follow Us</h2>
+            <ul class="flex space-x-4">
+                <li>
+                    <a href="#" class="text-gray-600 hover:text-indigo-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.23 5.924c-.839.372-1.74.623-2.692.734a4.696 4.696 0 002.057-2.571 9.387 9.387 0 01-2.962 1.13 4.681 4.681 0 00-7.962 4.268 13.3 13.3 0 01-9.645-4.89 4.681 4.681 0 001.448 6.25 4.656 4.656 0 01-2.122-.586c-.054 2.064 1.436 3.995 3.592 4.422a4.69 4.69 0 01-2.116.08 4.684 4.684 0 004.375 3.248A9.391 9.391 0 010 19.54a13.3 13.3 0 007.195 2.106c8.631 0 13.353-7.148 13.353-13.354 0-.204-.005-.407-.015-.609A9.535 9.535 0 0024 4.62a9.285 9.285 0 01-2.77.761z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 hover:text-indigo-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24h21.351C23.407 24 24 23.407 24 22.675V1.325C24 .593 23.407 0 22.675 0zm-13.49 20.675H5.358V9.373h3.827v11.302zM7.592 7.875C6.336 7.875 5.32 6.86 5.32 5.603c0-1.257 1.015-2.273 2.272-2.273 1.257 0 2.273 1.016 2.273 2.273 0 1.257-1.016 2.272-2.273 2.272zm12.84 12.8h-3.826v-5.443c0-1.297-.027-2.967-1.808-2.967-1.808 0-2.086 1.41-2.086 2.871v5.539h-3.826V9.373h3.674v1.542h.05c.512-.97 1.762-1.994 3.631-1.994 3.88 0 4.596 2.554 4.596 5.877v6.877h-.001z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="text-gray-600 hover:text-indigo-500">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12.004 2.163c2.204-.146 8.396-.146 10.668 2.126 2.272 2.272 2.272 8.464 2.126 10.668-.146 2.204-.146 8.396-2.126 10.668-2.272 2.272-8.464 2.272-10.668 2.126-2.204-.146-8.396-.146-10.668-2.126C.735 20.56.735 14.368.881 12.163c.146-2.204.146-8.396 2.126-10.668C5.279.735 11.471.735 12.004 2.163zm-1.004 13.837h-2v-6h2v6zm1-7.001h-2V6.5h2v2.5zm10.672-1.509c-.506-.653-1.242-1.16-2.062-1.433-.82-.273-1.69-.309-2.528-.102-1.02.24-1.906.883-2.432 1.792-.526.909-.683 1.97-.43 2.991.253 1.021.91 1.877 1.75 2.432.84.555 1.82.767 2.798.586.978-.181 1.867-.688 2.47-1.4.603-.712.947-1.63.985-2.603.038-.973-.23-1.925-.764-2.734z"/>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+
 </body>
 </html>
